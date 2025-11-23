@@ -40,9 +40,9 @@ def get_log_html(logs):
 def load_resources():
     from deepface import DeepFace # Import DeepFace here to build model
     try:
-        with open(os.path.join(MODEL_DIR, "face_model1.pkl"), "rb") as f: model = pickle.load(f)
-        with open(os.path.join(MODEL_DIR, "label_encoder1.pkl"), "rb") as f: encoder = pickle.load(f)
-        with open(os.path.join(MODEL_DIR, "embeddings1.pkl"), "rb") as f:
+        with open(os.path.join(MODEL_DIR, "face_model.pkl"), "rb") as f: model = pickle.load(f)
+        with open(os.path.join(MODEL_DIR, "label_encoder.pkl"), "rb") as f: encoder = pickle.load(f)
+        with open(os.path.join(MODEL_DIR, "embeddings.pkl"), "rb") as f:
             data = pickle.load(f)
             ref_embeddings = data["embeddings"]
             ref_names = data["names"]
