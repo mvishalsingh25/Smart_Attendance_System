@@ -1,0 +1,11 @@
+UPLOADS:
+
+First have Faces.zip folder that contain folder Faces
+Inside this subfolders (eg.23_VISHAL_SINGH)
+each subfolder conatin images(left,right,up,down,front in jpg format)
+
+
+Have test.jpg - image for testing
+
+
+USE GPU instead of CPU
